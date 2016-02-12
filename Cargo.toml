@@ -1,0 +1,11 @@
+[package]
+name = "sixense"
+version = "0.1.0"
+authors = ["Benjamin Lee <benjamin.fik.lee@gmail.com>"]
+
+[dependencies]
+libc = "*"
+nalgebra = "*"
+
+[dependencies.sixense_sys]
+path = "./sixense_sys"
